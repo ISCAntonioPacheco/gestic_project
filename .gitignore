@@ -240,3 +240,22 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+# Agregado por vipacheco [15/Nov/2017]
+*.swp
+*.bak
+*.lib
+*.zip
+*.rar
+*.ace
+*.exe
+*.dll
+*.msi
+
+build/
+obj/
+[Dd]ebug*/
+[Rr]elease*/
+[Tt]est[Rr]esult
+[Bb]uild[Ll]og.*
+bin/
