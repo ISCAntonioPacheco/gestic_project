@@ -1,0 +1,62 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GESTIC | ViewVag.Title</title>
+
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Styles/me");
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <nav class="container centered">
+        <div class="fixed-top navbar-light bg-light text-center">
+            <h1>.: GESTIC :.<br /></h1>
+            <h4>Gestión de transportes colectivos</h4>
+        </div>
+
+        @*<div class="container text-center" id="brdLogin">
+            @using (Html.BeginForm("Dashboard", "Home", FormMethod.Post))
+            {
+                <div class="text-center">
+                    <h5> Login </h5>
+                </div>
+                <div class="form-group">
+                    @Html.TextBoxFor(x => x.Mail, new { @class = "form-control", @placeholder = "correo electronico" })
+                </div>
+                <div class="form-group">
+                    @Html.PasswordFor(x => x.Name, new { @class = "form-control", @placeholder = "contraseña" })
+                </div>
+                <div class="text-center">
+                    <input class="btn btn-success" type="submit" value="Login" />
+                </div>
+                <div class="text-center text-info">
+                    <h5>
+                        @Html.ActionLink("¿Olvido su contraseña?", "Index", "Home")
+                    </h5>
+                    <h6>
+                        @Html.ActionLink("¿No tiene cuenta?", "Index", "Home")
+                    </h6>
+                    <input class="btn btn-default" type="submit" value="Crear cuenta" />
+                </div>
+            }
+        </div>*@
+
+        <div class="fixed-bottom navbar-light bg-light text-center">
+            <h6> &copy; Copyright - Open Mind Solutions 2018 </h6>
+            <h6> Todos los derechos reservados.</h6>
+        </div>
+    </nav>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>
